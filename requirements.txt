@@ -1,0 +1,46 @@
+# Core Data Engineering & Wrangling
+
+pandas>=2.1.0
+
+numpy>=1.26.0
+
+Faker>=22.0.0
+
+
+
+# Database & SQL Connectivity
+
+SQLAlchemy>=2.0.25
+
+psycopg2-binary>=2.9.9
+
+
+
+# Machine Learning & Evaluation (Phase 2)
+
+scikit-learn>=1.4.0
+
+xgboost>=2.0.3
+
+joblib>=1.3.2
+
+
+
+# Real-Time Fraud Scoring API (Phase 2)
+
+fastapi>=0.109.0
+
+uvicorn>=0.27.0
+
+pydantic>=2.6.0
+
+requests>=2.31.0
+
+
+
+# Interactive Monitoring Dashboard (Phase 3)
+
+streamlit>=1.31.0
+
+plotly>=5.18.0
+

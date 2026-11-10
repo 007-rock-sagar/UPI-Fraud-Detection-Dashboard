@@ -1,0 +1,72 @@
+# Python virtual environments
+
+venv/
+
+.venv/
+
+env/
+
+ENV/
+
+
+
+# Python bytecode & cache
+
+__pycache__/
+
+*.py[cod]
+
+*$py.class
+
+.pytest_cache/
+
+
+
+# Generated datasets & local databases (keep folder structure with .gitkeep if needed)
+
+data/raw/*.csv
+
+data/raw/*.json
+
+data/processed/*.csv
+
+data/processed/*.parquet
+
+data/processed/*.db
+
+data/processed/*.sqlite3
+
+*.db
+
+
+
+# Trained ML model binaries (generated locally via src/train_model.py)
+
+models/*.pkl
+
+models/*.joblib
+
+models/*.json
+
+
+
+# Environment variables & secrets
+
+.env
+
+.env.local
+
+
+
+# IDE & OS metadata
+
+.vscode/
+
+.idea/
+
+.DS_Store
+
+Thumbs.db
+
+*.log
+
